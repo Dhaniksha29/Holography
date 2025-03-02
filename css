@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #051622; /* Very dark blue/black background */
+    color: #deb992; /* Light beige text */
+}
+
+header {
+    background-color: #1ba098; /* Teal header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+section {
+    background-color: #1d2228; /* Dark gray for sections */
+    border: 1px solid #1ba098; /* Teal border */
+    margin: 20px auto; /* Center the section */
+    padding: 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    max-width: 800px; /* Set a maximum width */
+}
+
+h2 {
+    color: #1ba098; /* Teal for section headings */
+}
+
+h3 {
+    color: #deb992; /* Light beige for subheadings */
+}
+
+p {
+    color: #deb992; /* Light beige text */
+}
+
+strong {
+    color: #1ba098; /* Teal for strong text */
+}
+
+em {
+    color: #deb992; /* Light beige for emphasized text */
+}
+
+ul, ol {
+    margin-left: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    color: #deb992; /* Light beige text in table */
+}
+
+th {
+    background-color: #1ba098; /* Teal for table header */
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #333333; /* Darker gray for even rows */
+}
+
+footer {
+    background-color: #1ba098; /* Teal footer */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
